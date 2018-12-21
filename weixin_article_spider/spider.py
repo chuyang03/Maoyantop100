@@ -6,7 +6,7 @@ from requests.exceptions import ConnectionError
 from pyquery import PyQuery as pq
 from config import *
 
-from weixin_article_spider.config import MONGO_DB, MONGO_URI
+from weixin_article_spider.config import MONGO_DB, MONGO_URI, KEYWORD, MAX_COUNT, PROXY_POOL_URL
 
 client = pymongo.MongoClient(MONGO_URI)
 db = client[MONGO_DB]

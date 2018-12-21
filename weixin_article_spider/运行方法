@@ -1,0 +1,12 @@
+第一步确定python环境：
+source activate python37
+
+第二步找到代理池工程：
+cd ProxyPool
+
+第三步运行代理池（一直保持运行）：
+python run.py
+
+
+运行代理池后可以通过浏览器查看获取的代理：
+localhost:5000/get
